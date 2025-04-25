@@ -9,7 +9,7 @@ const Greet = ( { customFields }) => (
     </div>
 );
 
-Greet.PropTypes = {
+Greet.propTypes = {
     customFields: PropTypes.shape({
         name: PropTypes.string.tag({
             label: 'Name',
